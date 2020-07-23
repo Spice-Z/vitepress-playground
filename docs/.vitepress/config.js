@@ -2,8 +2,12 @@ module.exports = {
   title: 'VitePress Playground',
 
   themeConfig: {
-    repo: 'vuejs/vuex',
-    docsDir: 'docs',
+    editLink: {
+      repo: 'vuejs/vuex',
+      dir: 'docs',
+      branch: 'dev',
+      text: 'Edit me!!'
+    },
 
     nav: [
       { text: 'Guide', link: '/guide/' },
@@ -49,6 +53,14 @@ module.exports = {
           ]
         }
       ]
+    },
+
+    locales: {
+      '/ja/': {
+        editLink: {
+          text: '編集する'
+        },
+      }
     }
   }
 }

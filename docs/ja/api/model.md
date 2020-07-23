@@ -1,10 +1,6 @@
----
-editLink: false
----
+# Api: モデル
 
-# Api: Model
-
-Hello, api docs!
+こんちには
 
 ## API Heading 1
 
